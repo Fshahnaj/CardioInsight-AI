@@ -1,0 +1,88 @@
+{
+  "dataset_path": "data\\lake\\cardio_deid_data.csv",
+  "n_rows": 68598,
+  "n_columns": 21,
+  "checks": {
+    "missing_values": {
+      "description": "Percentage of missing values per column",
+      "percent_missing": {
+        "id": 0.0,
+        "age_days": 0.0,
+        "gender": 0.0,
+        "height": 0.0,
+        "weight": 0.0,
+        "ap_hi": 0.0,
+        "ap_lo": 0.0,
+        "cholesterol_level": 0.0,
+        "glucose_level": 0.0,
+        "smoke": 0.0,
+        "alcohol": 0.0,
+        "active": 0.0,
+        "target_cvd": 0.0,
+        "age_years": 0.0,
+        "bmi": 0.0,
+        "bp_diff": 0.0,
+        "age_band": 0.0,
+        "bmi_band": 0.0,
+        "measure_date": 0.0,
+        "measure_month": 0.0,
+        "patient_id": 0.0
+      }
+    },
+    "clinical_ranges": {
+      "description": "Clinical range checks for key numeric metrics",
+      "all_pass": true,
+      "checks": {
+        "age_years_18_100": true,
+        "height_120_220_cm": true,
+        "weight_35_250_kg": true,
+        "ap_hi_80_250": true,
+        "ap_lo_40_160": true
+      },
+      "violations": {
+        "age_out_of_range": 0,
+        "height_out_of_range": 0,
+        "weight_out_of_range": 0,
+        "ap_hi_out_of_range": 0,
+        "ap_lo_out_of_range": 0
+      }
+    },
+    "category_validity": {
+      "description": "Category validity checks for lab codes and banded fields",
+      "checks": {
+        "cholesterol_valid_codes": true,
+        "glucose_valid_codes": true,
+        "age_band_valid": true,
+        "bmi_band_valid": true
+      }
+    },
+    "logical_consistency": {
+      "description": "Logical rules across related columns",
+      "checks": {
+        "ap_hi_ge_ap_lo": true,
+        "bmi_positive": true,
+        "age_days_positive": true
+      },
+      "violations": {
+        "bp_logic_violations": 0,
+        "bmi_logic_violations": 0,
+        "age_days_logic_violations": 0
+      }
+    },
+    "uniqueness": {
+      "description": "Uniqueness checks for synthetic identifiers",
+      "patient_id_unique": true,
+      "total_rows": 68598,
+      "unique_patient_ids": 68598,
+      "duplicate_patient_ids": 0
+    }
+  },
+  "dq_scores": {
+    "missing_score": 100.0,
+    "clinical_score": 100.0,
+    "category_score": 100.0,
+    "logical_score": 100.0,
+    "uniqueness_score": 100.0,
+    "overall_score": 100.0
+  }
+}

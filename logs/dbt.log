@@ -1,0 +1,82 @@
+[0m08:13:10.656458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002727D3C81C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002727E4442E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002727E4440D0>]}
+
+
+============================== 08:13:10.672103 | 804a884e-d1ee-4c3a-996d-db5b1bbdd549 ==============================
+[0m08:13:10.672103 [info ] [MainThread]: Running with dbt=1.10.15
+[0m08:13:10.674669 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'write_json': 'True', 'no_print': 'None', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\fujai\\.dbt', 'invocation_command': 'dbt debug', 'printer_width': '80', 'target_path': 'None'}
+[0m08:13:10.741164 [info ] [MainThread]: dbt version: 1.10.15
+[0m08:13:10.742154 [info ] [MainThread]: python version: 3.10.19
+[0m08:13:10.743793 [info ] [MainThread]: python path: C:\Users\fujai\anaconda3\Python\envs\cardioinsight\python.exe
+[0m08:13:10.746078 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m08:13:10.747075 [info ] [MainThread]: Using profiles dir at C:\Users\fujai\.dbt
+[0m08:13:10.748388 [info ] [MainThread]: Using profiles.yml file at C:\Users\fujai\.dbt\profiles.yml
+[0m08:13:10.750648 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\fujai\CardioInsight-AI\dbt_project.yml
+[0m08:13:10.751660 [info ] [MainThread]: Configuration:
+[0m08:13:10.753024 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m08:13:10.755418 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:13:10.756393 [info ] [MainThread]: Required dependencies:
+[0m08:13:10.757675 [debug] [MainThread]: Executing "git --help"
+[0m08:13:10.853006 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:13:10.855651 [debug] [MainThread]: STDERR: "b''"
+[0m08:13:10.857186 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:13:10.858300 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m08:13:10.859064 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:13:10.862392 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\fujai\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m08:13:10.862392 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\fujai\CardioInsight-AI\dbt_project.yml> not found
+
+[0m08:13:10.866757 [debug] [MainThread]: Command `dbt debug` failed at 08:13:10.864229 after 0.37 seconds
+[0m08:13:10.868347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002727D3C81C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002727E4440A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002727E441FC0>]}
+[0m08:13:10.868737 [debug] [MainThread]: Flushing usage events
+[0m08:13:13.123639 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:27:17.923907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015495F081F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015496F802B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015496F800A0>]}
+
+
+============================== 08:27:17.931981 | 455d4439-9ea4-4516-93f8-1c9bf25c1155 ==============================
+[0m08:27:17.931981 [info ] [MainThread]: Running with dbt=1.10.15
+[0m08:27:17.934377 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\fujai\\.dbt', 'write_json': 'True', 'invocation_command': 'dbt init cardioinsight_dbt', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None'}
+[0m08:27:17.981055 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\fujai\.dbt
+[0m08:27:17.987324 [debug] [MainThread]: Starter project path: C:\Users\fujai\anaconda3\Python\envs\cardioinsight\lib\site-packages\dbt\include\starter_project
+[0m08:27:18.059042 [info ] [MainThread]: 
+Your new dbt project "cardioinsight_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:27:18.061044 [info ] [MainThread]: Setting up your profile.
+[0m08:38:58.304906 [debug] [MainThread]: Command `dbt init` succeeded at 08:38:58.304906 after 700.55 seconds
+[0m08:38:58.305972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015495F081F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015496F81540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015496F81D50>]}
+[0m08:38:58.307033 [debug] [MainThread]: Flushing usage events
+[0m08:38:59.620437 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:01:22.010349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA4D6A8250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA4F643970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA4F6431F0>]}
+
+
+============================== 15:01:22.018442 | 2d1d5667-7dd1-47fc-8f59-62d2c4088d29 ==============================
+[0m15:01:22.018442 [info ] [MainThread]: Running with dbt=1.10.15
+[0m15:01:22.019441 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'cache_selected_only': 'False', 'use_colors': 'True', 'profiles_dir': 'C:\\Users\\fujai\\.dbt', 'target_path': 'None', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'invocation_command': 'dbt run --select stg_cardioinsight --full-refresh', 'printer_width': '80', 'write_json': 'True'}
+[0m15:01:22.020481 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\fujai\CardioInsight-AI\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:01:22.021481 [debug] [MainThread]: Command `dbt run` failed at 15:01:22.021481 after 0.17 seconds
+[0m15:01:22.022917 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA4D6A8250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA4F643AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA4F643250>]}
+[0m15:01:22.023917 [debug] [MainThread]: Flushing usage events
+[0m15:01:23.194893 [debug] [MainThread]: An error was encountered while trying to flush usage events

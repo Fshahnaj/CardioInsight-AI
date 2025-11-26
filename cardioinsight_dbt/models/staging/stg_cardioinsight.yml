@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_cardioinsight
+    description: "Staging model exposing the de-identified cardiovascular cohort from the lake layer via DuckDB."
+    columns:
+      - name: patient_id
+        description: "Synthetic patient identifier."
+        tests:
+          - not_null
+
+      - name: target_cvd
+        description: "Binary cardiovascular disease outcome label (0 = no event, 1 = event)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [0, 1]

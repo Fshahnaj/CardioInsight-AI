@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: mart_cardio_risk
+    description: "Analytics mart for cardiovascular risk modeling and BI dashboards."
+
+    columns:
+      - name: patient_id
+        tests:
+          - not_null
+
+      - name: cardiovascular_event
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+
+      - name: bmi
+        tests:
+          - not_null
+
+      - name: pulse_pressure
+        tests:
+          - not_null

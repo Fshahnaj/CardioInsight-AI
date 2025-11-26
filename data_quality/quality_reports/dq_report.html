@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CardioInsight-AI Data Quality Report</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f5f5f5;
+    color: #333;
+}
+.section {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.pass { color: #2ecc71; font-weight: bold; }
+.fail { color: #e74c3c; font-weight: bold; }
+h1, h2 { color: #2c3e50; }
+</style>
+</head>
+<body>
+
+<h1>🏥 CardioInsight-AI Data Quality Report</h1>
+<p>Generated: 2025-11-25 15:10:34</p>
+
+<div class="section">
+<h2>📊 Executive Summary</h2>
+<p><strong>Rows:</strong> 68,598 &nbsp; | &nbsp; <strong>Columns:</strong> 21</p>
+<p><strong>Overall Data Quality Score:</strong> 100.0%</p>
+<ul>
+    <li>Missingness: 100.0%</li>
+    <li>Clinical Ranges: 100.0%</li>
+    <li>Category Validity: 100.0%</li>
+    <li>Logical Consistency: 100.0%</li>
+    <li>Uniqueness: 100.0%</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>1️⃣ Missing Value Checks</h2>
+<p>Max Missing: 0.00%</p>
+</div>
+
+<div class="section">
+<h2>2️⃣ Clinical Range Violations</h2>
+<pre>{
+  "age_out_of_range": 0,
+  "height_out_of_range": 0,
+  "weight_out_of_range": 0,
+  "ap_hi_out_of_range": 0,
+  "ap_lo_out_of_range": 0
+}</pre>
+</div>
+
+<div class="section">
+<h2>3️⃣ Category Validity Checks</h2>
+<pre>{
+  "cholesterol_valid_codes": true,
+  "glucose_valid_codes": true,
+  "age_band_valid": true,
+  "bmi_band_valid": true
+}</pre>
+</div>
+
+<div class="section">
+<h2>4️⃣ Logical Consistency Checks</h2>
+<pre>{
+  "bp_logic_violations": 0,
+  "bmi_logic_violations": 0,
+  "age_days_logic_violations": 0
+}</pre>
+</div>
+
+<div class="section">
+<h2>5️⃣ Uniqueness Checks</h2>
+<pre>{
+  "description": "Uniqueness checks for synthetic identifiers",
+  "patient_id_unique": true,
+  "total_rows": 68598,
+  "unique_patient_ids": 68598,
+  "duplicate_patient_ids": 0
+}</pre>
+</div>
+
+</body>
+</html>

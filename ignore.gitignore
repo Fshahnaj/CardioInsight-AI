@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Data (never push raw or heavy data)
+data/raw/
+data/lake/
+data/warehouse/
+data/processed/
+data/exports/
+
+# ML artifacts (don’t push big models)
+ml/models/*.pkl
+ml/models/artifacts/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
