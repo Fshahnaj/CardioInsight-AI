@@ -404,6 +404,13 @@ python data/exports/export_mart_to_csv.py
 </ul>
 
 <hr />
+<h2>📊 Live Dashboard</h2>
+  <p>
+    <a href="https://app.powerbi.com/groups/me/reports/6cfed432-7813-4abe-ad2c-dda06c516021/7fcc96f055c14681b2cc?experience=power-bi"_blank" 
+       style="font-size: 18px; font-weight: bold; color: #0066cc;">
+      👉 View the Interactive Power BI Dashboard
+    </a>
+  </p>
 
 <h2>🩺 Why This Project Matters</h2>
 
