@@ -415,7 +415,6 @@ python data/exports/export_mart_to_csv.py
   <li><strong>BI storytelling with clinical insights</strong></li>
   <li><strong>Full end-to-end architecture</strong></li>
 </ul>
-
 <p>Aligned with roles in:</p>
 <ul>
   <li>Healthcare Analytics</li>
@@ -428,8 +427,14 @@ python data/exports/export_mart_to_csv.py
 
 <h2>📬 Contact</h2>
 
-<p><strong>Fujaila Shahnaj</strong><br />
-MS Computer Science — Clemson University<br />
-Raleigh–Durham–Cary (NC)</p>
+ <p>
+    <strong>Email:</strong>
+    <a href="mailto:shahnajfujaila@gmail.com">shahnajfujaila@gmail.com</a><br><br>
+    <strong>LinkedIn:</strong>
+    <a href="www.linkedin.com/in/fujaila-shahnaj-clemson" target="_blank">
+      Fujaila-Shahnaj
+    </a><br><br>
+    <strong>Location:</strong> Raleigh–Durham–Cary, NC
+  </p>
 
 <p><strong>Skills:</strong> Power BI • Data Engineering • ML/NLP • Python • dbt • DuckDB</p>
