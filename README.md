@@ -144,7 +144,7 @@
     <tr>
       <td style="border: 1px solid #cccccc; padding: 10px; border-radius: 6px;">
         <strong>Raw CSV Data</strong><br />
-        <small>Kaggle dataset (~70K)</small>
+        <small>Cardiovascular dataset (~70K)</small>
       </td>
       <td>➡️</td>
       <td style="border: 1px solid #cccccc; padding: 10px; border-radius: 6px;">
