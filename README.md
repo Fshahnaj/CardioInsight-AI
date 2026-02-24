@@ -264,7 +264,7 @@ python -m venv .venv
 pip install -r requirements.txt
 </pre>
 
-<p>Download the Kaggle dataset and place it as:</p>
+<p>Download the cardiovascular dataset and place it as:</p>
 <pre>data/raw/cardio_raw_data.csv</pre>
 
 <h3>6.3 Run ETL + Data Quality</h3>
@@ -411,13 +411,11 @@ python data/exports/export_mart_to_csv.py
       👉 View the Interactive Power BI Dashboard
     </a>
   </p>
-<h2>📊 Dashboard Preview</h2> 
+<h3>Page 1 — Population Cardiovascular Risk Analytics</h3>
+<img src="cardioinsight-AI%20dashboard/Images/CardioInsight-AI_population_risk_analytics.png" alt="Population Risk Analytics" width="800"/>
 
-### Page 1 — Population Cardiovascular Risk Analytics
-![Population Risk Analytics](cardioinsight-AI%20dashboard/Images/CardioInsight-AI_population_risk_analytics.png)
-
-### Page 2 — Patient Clinical Drilldown
-![Patient Clinical Drilldown](cardioinsight-AI%20dashboard/Images/CardioInsight-AI_patient_clinical_drilldown.png)
+<h3>Page 2 — Patient Clinical Drilldown</h3>
+<img src="cardioinsight-AI%20dashboard/Images/CardioInsight-AI_patient_clinical_drilldown.png" alt="Patient Clinical Drilldown" width="800"/>
 
 <h2>🩺 Why This Project Matters</h2>
 
