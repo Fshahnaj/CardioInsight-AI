@@ -2,7 +2,7 @@
 
 <h1><strong>CardioInsight-AI:Clinical Risk Analytics & Dashboard Platform🩺📊</strong></h1>
 
-<p><strong>Enterprise-grade healthcare analytics platform</strong> for cardiovascular risk assessment, built on a Kaggle dataset of ~70,000 patient records.</p>
+<p><strong>Enterprise-grade healthcare analytics platform</strong> for cardiovascular risk assessment, built on a publicly available cardiovascular dataset of ~70,000 patient records.</p>
 
 <p><strong>CardioInsight-AI</strong> demonstrates production-style:</p>
 <ul>
