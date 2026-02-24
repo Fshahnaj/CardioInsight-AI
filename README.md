@@ -443,7 +443,7 @@ python data/exports/export_mart_to_csv.py
     <strong>Email:</strong>
     <a href="mailto:shahnajfujaila@gmail.com">shahnajfujaila@gmail.com</a><br><br>
     <strong>LinkedIn:</strong>
-    <a href="www.linkedin.com/in/fujaila-shahnaj-clemson" target="_blank">
+    <a href="https://www.linkedin.com/in/fujaila-shahnaj-clemson/" target="_blank">
       Fujaila-Shahnaj
     </a><br><br>
     <strong>Location:</strong> Raleigh–Durham–Cary, NC
