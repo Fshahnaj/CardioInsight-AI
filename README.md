@@ -411,12 +411,13 @@ python data/exports/export_mart_to_csv.py
       👉 View the Interactive Power BI Dashboard
     </a>
   </p>
-  <h2>📊 Dashboard Preview</h2>
+## 📊 Dashboard Preview
+
 ### Page 1 — Population Cardiovascular Risk Analytics
 ![Population Risk Analytics](cardioinsight-AI%20dashboard/Images/CardioInsight-AI_population_risk_analytics.png)
 
-### Page 2 — Patient Risk Explorer & Clinical Drilldown
-![Patient Drilldown](cardioinsight-AI%20dashboard/Images/CardioInsight-AI_patient_clinical_drilldown.png)
+### Page 2 — Patient Clinical Drilldown
+![Patient Clinical Drilldown](cardioinsight-AI%20dashboard/Images/CardioInsight-AI_patient_clinical_drilldown.png)
 
 <h2>🩺 Why This Project Matters</h2>
 
